@@ -91,11 +91,19 @@ namespace AddressBookUsingCollectionLibrary
             else
             {
                 Console.WriteLine("Person details are: ");
+                int rc = 1;
                 foreach (Contacts contact in contacts)
                 {
+                    Console.WriteLine("\n\nRecord:-" + rc);
                     Console.WriteLine("\nFirst name is: " + contact.firstName);
                     Console.WriteLine("Last name is: " + contact.lastName);
+                    Console.WriteLine("Address : " + contact.address);
                     Console.WriteLine("City : " + contact.city);
+                    Console.WriteLine("State : " + contact.state);
+                    Console.WriteLine("Email : " + contact.email);
+                    Console.WriteLine("Zip code : " + contact.zip);
+                    Console.WriteLine("Phone Number : " + contact.phoneNumber);
+                    rc++;
                 }
             }
         }
@@ -115,11 +123,18 @@ namespace AddressBookUsingCollectionLibrary
             else
             {
                 Console.WriteLine("Person details are: ");
+                int rc = 1;
                 foreach (Contacts contact in contacts1)
                 {
                     Console.WriteLine("\nFirst name is: " + contact.firstName);
                     Console.WriteLine("Last name is: " + contact.lastName);
+                    Console.WriteLine("Address : " + contact.address);
+                    Console.WriteLine("City : " + contact.city);
                     Console.WriteLine("State : " + contact.state);
+                    Console.WriteLine("Email : " + contact.email);
+                    Console.WriteLine("Zip code : " + contact.zip);
+                    Console.WriteLine("Phone Number : " + contact.phoneNumber);
+                    rc++;
                 }
             }
         }
