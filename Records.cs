@@ -90,6 +90,7 @@ namespace AddressBookUsingCollectionLibrary
             }
             else
             {
+                Console.WriteLine("Total number of Contacts are: " + contacts.Count);
                 Console.WriteLine("Person details are: ");
                 int rc = 1;
                 foreach (Contacts contact in contacts)
@@ -122,6 +123,7 @@ namespace AddressBookUsingCollectionLibrary
             }
             else
             {
+                Console.WriteLine("Total Number of Contacts are: " + contacts1.Count);
                 Console.WriteLine("Person details are: ");
                 int rc = 1;
                 foreach (Contacts contact in contacts1)
